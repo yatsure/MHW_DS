@@ -43,10 +43,10 @@
             </objects>
             <point key="canvasLocation" x="47.826086956521742" y="20.758928571428569"/>
         </scene>
-        <!--View Controller-->
+        <!--Input View Controller-->
         <scene sceneID="gnQ-lk-gHV">
             <objects>
-                <viewController id="N5M-jR-KIY" sceneMemberID="viewController">
+                <viewController id="N5M-jR-KIY" customClass="InputViewController" customModule="MHW_DS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Bw3-0i-tit">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -76,10 +76,10 @@
             </objects>
             <point key="canvasLocation" x="884" y="21"/>
         </scene>
-        <!--View Controller-->
+        <!--Server View Controller-->
         <scene sceneID="6WN-2a-ei3">
             <objects>
-                <viewController id="R0W-T6-Nz0" sceneMemberID="viewController">
+                <viewController id="R0W-T6-Nz0" customClass="ServerViewController" customModule="MHW_DS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rgh-YB-8WR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -101,10 +101,10 @@
             </objects>
             <point key="canvasLocation" x="883" y="765"/>
         </scene>
-        <!--View Controller-->
+        <!--Result View Controller-->
         <scene sceneID="BYV-Nk-tYX">
             <objects>
-                <viewController id="1TW-8n-9LQ" sceneMemberID="viewController">
+                <viewController id="1TW-8n-9LQ" customClass="ResultViewController" customModule="MHW_DS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Itu-UW-Jiw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -128,7 +128,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Ms8-pw-oLS"/>
-        <segue reference="4Zi-VZ-RXR"/>
+        <segue reference="0np-iG-rg7"/>
+        <segue reference="A1T-z6-Ffc"/>
     </inferredMetricsTieBreakers>
 </document>
